@@ -1,0 +1,55 @@
+/* @theme ubc */
+/*
+  Téma pro přednášku U bílýho černocha.
+  Velikosti písma vycházejí ze zkoušky čitelnosti v sále 4. 9. 2026
+  (plátno 1280 × 720 px): spolehlivě čitelných je 40 px, 34 px jen pro
+  popisky, menší na slajd nepatří.
+*/
+@import 'default';
+
+section {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 40px;
+  line-height: 1.3;
+  padding: 48px 48px;
+  color: #0f172a;
+  background: #ffffff;
+}
+
+h1 {
+  font-size: 60px;
+  color: #2563eb;
+}
+
+h2 {
+  font-size: 60px;
+  color: #1e40af;
+}
+
+section.lead {
+  text-align: center;
+}
+
+/* Šedá patří podtitulu, ne každému odstavci na středovém slidu.
+   Na středových slidech jsou hlavní věty přednášky a ty musí být tmavé. */
+.podtitul {
+  color: #64748b;
+}
+
+blockquote {
+  border-left: 6px solid #2563eb;
+  padding-left: 0.6em;
+  color: #475569;
+  font-style: italic;
+}
+
+small,
+.zdroj {
+  font-size: 34px;
+  color: #64748b;
+}
+
+section::after {
+  font-size: 24px;
+  color: #94a3b8;
+}
