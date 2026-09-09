@@ -519,7 +519,7 @@ Jan Kulveit: postupná ztráta vlivu.
 
 <div class="velke">
 
-Lidé můžou být ve 21. století asi tak důležití, jako byli koně ve 19.
+Lidé můžou být ve 21. století asi tak důležití, jako byli koně ve 20.
 
 </div>
 
